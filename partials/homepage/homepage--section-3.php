@@ -14,6 +14,6 @@
 
     </div>
 
-    <?php include '../footer.php'; ?>
+    <?php include 'partials/footer.php'; ?>
 
 </section>

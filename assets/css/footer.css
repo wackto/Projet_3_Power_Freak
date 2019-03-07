@@ -3,8 +3,40 @@
 
 .footer{
     position: absolute;
+    width: 100%;
     bottom: 0;
     left: 0;
     height: 30vh;
     background-color: #96c400;
+    padding: 5vh 0;
+}
+
+.footer-bloc-1{
+    display: flex;
+}
+
+.footer-naviguation{
+    width: 30%;
+}
+
+.footer-naviguation img{
+    margin-bottom: 2vh;
+}
+
+.footer-naviguation li{
+    margin-bottom: 1vh;
+}
+
+.footer-resume{
+    display: flex;
+    width: 70%;
+}
+
+.footer-bloc-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-media{
+    display: flex;
 }
