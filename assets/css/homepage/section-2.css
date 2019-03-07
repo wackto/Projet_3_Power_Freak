@@ -1,0 +1,85 @@
+.homepage--section-2{
+    height: 90vh;
+    margin-top: 10vh;
+    padding: 8vh 0;
+    position: relative;
+}
+
+.homepage--section-2 .container{
+    text-align: center;
+}
+/* ------- Titre -------- */
+
+
+.homepage--section-2 .title{
+    margin-bottom: -5vh;
+}
+
+/* ------- Produits -------- */
+
+
+.homepage--section-2 .products{
+    position: relative;
+    height: 55vh;
+    margin-bottom: 5vw;
+}
+
+.homepage--section-2 .can-orange,
+.homepage--section-2 .can-rose{
+    position: absolute;
+    left: -10vw;
+    top: 0;
+    width: 70%;
+}
+
+.homepage--section-2 .can-rose{
+    left: inherit;
+    right: -10vw;
+}
+
+.homepage--section-2 .can-orange img,
+.homepage--section-2 .can-rose img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2vh;
+}
+
+.gout {
+    padding: 20px 50px;
+    background-color: #f69301;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.gout-framboise{
+    background-color: #da004e;
+}
+
+.gout span{
+    color: white;
+    font-family: "ralewayblack";
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ------- Bouton -------- */
+
+.button-underline{
+    font-family: 'londrina_solid_lightregular';
+    font-size: 1.5em;
+    border-bottom: 4px solid #96c400  ;
+    display: inline-block;
+    padding-bottom: 1vh;
+}
+
+.button-underline span{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button-shop{
+    margin-left: 1vw;
+}
+

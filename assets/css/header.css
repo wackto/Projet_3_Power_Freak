@@ -1,0 +1,40 @@
+
+.menu{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.menu > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu-nav ul,
+.menu-social{
+    display: flex;
+    align-items: center;
+}
+
+.menu-nav a{
+    color: black;
+    font-family: "ralewayregular";
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 3vw;
+}
+
+.menu-social li{
+    margin: 0 0.5vw;
+}

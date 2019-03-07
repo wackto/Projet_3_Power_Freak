@@ -1,20 +1,142 @@
+/* --------------- colors */
+/*
+  VERT : #96c400
+  ROSE : #da004e
+  ORANGE : #f69301
 
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&subset=latin-ext');
+*/
+
+
+/* --------------- Fonts */
 
 @font-face {
-    font-family: 'aileronblack';
-    src: url('../fonts/aileron-black-webfont.woff2') format('woff2'),
-         url('../fonts/aileron-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'londrina_solid_blackregular';
+  src: url('../fonts/londrinasolid-black-webfont.eot');
+  src: url('../fonts/londrinasolid-black-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/londrinasolid-black-webfont.woff2') format('woff2'),
+       url('../fonts/londrinasolid-black-webfont.woff') format('woff'),
+       url('../fonts/londrinasolid-black-webfont.ttf') format('truetype'),
+       url('../fonts/londrinasolid-black-webfont.svg#londrina_solid_blackregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'aileronlight';
-    src: url('../fonts/aileron-light-webfont.woff2') format('woff2'),
-         url('../fonts/aileron-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'londrina_solid_lightregular';
+  src: url('../fonts/londrinasolid-light-webfont.eot');
+  src: url('../fonts/londrinasolid-light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/londrinasolid-light-webfont.woff2') format('woff2'),
+       url('../fonts/londrinasolid-light-webfont.woff') format('woff'),
+       url('../fonts/londrinasolid-light-webfont.ttf') format('truetype'),
+       url('../fonts/londrinasolid-light-webfont.svg#londrina_solid_lightregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'londrina_solidregular';
+  src: url('../fonts/londrinasolid-regular-webfont.eot');
+  src: url('../fonts/londrinasolid-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/londrinasolid-regular-webfont.woff2') format('woff2'),
+       url('../fonts/londrinasolid-regular-webfont.woff') format('woff'),
+       url('../fonts/londrinasolid-regular-webfont.ttf') format('truetype'),
+       url('../fonts/londrinasolid-regular-webfont.svg#londrina_solidregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'londrina_solid_thinregular';
+  src: url('../fonts/londrinasolid-thin-webfont.eot');
+  src: url('../fonts/londrinasolid-thin-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/londrinasolid-thin-webfont.woff2') format('woff2'),
+       url('../fonts/londrinasolid-thin-webfont.woff') format('woff'),
+       url('../fonts/londrinasolid-thin-webfont.ttf') format('truetype'),
+       url('../fonts/londrinasolid-thin-webfont.svg#londrina_solid_thinregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ralewayblack';
+  src: url('../fonts/raleway-black-webfont.eot');
+  src: url('../fonts/raleway-black-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-black-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-black-webfont.woff') format('woff'),
+       url('../fonts/raleway-black-webfont.ttf') format('truetype'),
+       url('../fonts/raleway-black-webfont.svg#ralewayblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ralewaybold';
+  src: url('../fonts/raleway-bold-webfont.eot');
+  src: url('../fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-bold-webfont.woff') format('woff'),
+       url('../fonts/raleway-bold-webfont.ttf') format('truetype'),
+       url('../fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ralewaylight';
+  src: url('../fonts/raleway-light-webfont.eot');
+  src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-light-webfont.woff') format('woff'),
+       url('../fonts/raleway-light-webfont.ttf') format('truetype'),
+       url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ralewaylight_italic';
+  src: url('../fonts/raleway-lightitalic-webfont.eot');
+  src: url('../fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-lightitalic-webfont.woff') format('woff'),
+       url('../fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
+       url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ralewayregular';
+  src: url('../fonts/raleway-regular-webfont.eot');
+  src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-regular-webfont.woff') format('woff'),
+       url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+       url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ralewaysemibold';
+  src: url('../fonts/raleway-semibold-webfont.eot');
+  src: url('../fonts/raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-semibold-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-semibold-webfont.woff') format('woff'),
+       url('../fonts/raleway-semibold-webfont.ttf') format('truetype'),
+       url('../fonts/raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 *{
@@ -25,11 +147,11 @@
   list-style: none;
 }
 html {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 body {
-  font-family: 'aileronlight';
+  font-family: 'ralewaylight';
   font-size: 100%;
   background-color: white;
 }
@@ -44,4 +166,25 @@ a {
 
 h1, h2, h3, h4, h5, h6{
   font-weight: inherit;
+  font-family: "londrina_solidregular";
+}
+
+/* --------------- general */
+
+.container{
+  width: 1200px;
+  margin: auto;
+}
+
+/* --------------- colors */
+.color-orange{
+  color: #f69301;
+}
+
+.color-vert{
+  color: #96c400;
+}
+
+.color-rose{
+  color: #da004e;
 }
