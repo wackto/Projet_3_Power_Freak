@@ -1,7 +1,7 @@
 <header class="menu">
     <div class="container">
         <div class="logo-header">
-            <a href="#" target="_blank"><img src="images/logo-power-freaks.png" alt="Logo PowerFreak retour accueil" width="150" height="auto" /></a>
+            <a href="index.php"><img src="images/logo-power-freaks.png" alt="Logo PowerFreak retour accueil" width="150" height="auto" /></a>
         </div>
         <nav class="menu-nav">
             <ul>

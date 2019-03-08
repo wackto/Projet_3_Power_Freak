@@ -17,7 +17,7 @@
                     </div>
 
                     <div class="bloc-scroll">
-                        <a href="#"><img src="images/fleche-scroll-white.svg" alt="Flèche qui indique de scroll" height="10" width="auto" /></a>
+                        <a href="#homepage--section-2"><img src="images/fleche-scroll-white.svg" alt="Flèche qui indique de scroll" height="10" width="auto" /></a>
                     </div>
 
                 </div>

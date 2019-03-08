@@ -1,6 +1,12 @@
+.anchor{
+    display: block;
+    height: 10vh; /*same height as header*/
+    margin-top: -10vh; /*same height as header*/
+    visibility: hidden;
+  }
+
 .homepage--section-2{
     height: 90vh;
-    margin-top: 10vh;
     padding: 8vh 0;
     position: relative;
 }

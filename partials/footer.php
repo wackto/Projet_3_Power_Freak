@@ -29,8 +29,7 @@
         </div>
 
         <div class="footer-bloc-2">
-            <p>Copyright Théo Wack - 2019</p>
-            <ul class="footer-social-media">
+        <ul class="footer-social-media">
                 <li>
                     <div>
                     <a href="#"><img src="images/icon-facebook.svg" alt="Logo Facebook" width="15" height="auto" /></a>
@@ -47,6 +46,8 @@
                     </div>
                 </li>
             </ul>
+            <p>Copyright Théo Wack - 2019</p>
+            
         </div>
 
         

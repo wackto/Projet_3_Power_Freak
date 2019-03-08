@@ -1,4 +1,4 @@
-<section class="homepage--section-3">
+<section class="homepage--section-3" id="homepage--section-3">
     <div class="container">
         <h2 class="title">Une boisson <span class="color-vert">énergisante</span></h2>
 

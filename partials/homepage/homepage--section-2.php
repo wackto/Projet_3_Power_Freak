@@ -1,3 +1,4 @@
+<span class="anchor" id="homepage--section-2"></span>
 <section class="homepage--section-2">
                 <div class="container">
                     <h2 class="title">2 goûts<br/><span class="color-orange">100% naturels</span></span></h2>
@@ -19,11 +20,11 @@
                     </div>
 
                     <div class="button-underline">
-                        <a href="#"><span>Le shop</span><span class="button-shop"><img src="images/panier-shop.svg" alt="Flèche qui mène vers la page recyclage" height="25" width="auto" /></span></a>
+                        <a href="#"><span>Le shop</span><span class="button-shop"><img src="images/panier-shop.svg" alt="Bouton qui mène au shop" height="25" width="auto" /></span></a>
                     </div>
 
                     <div class="bloc-scroll">
-                        <a href="#"><img src="images/fleche-scroll.svg" alt="Flèche qui indique de scroll" height="10" width="auto" /></a>
+                        <a href="#homepage--section-3"><img src="images/fleche-scroll.svg" alt="Flèche qui indique de scroll" height="10" width="auto" /></a>
                     </div>
 
                 </div>

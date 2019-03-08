@@ -99,7 +99,8 @@
     margin-bottom: 3vh;
 }
 
-.recyclage-section-infos p{
+.recyclage-section-infos-text,
+.recyclage-more{
     font-size: 1.2em;
     line-height: 1.8em;
     padding-left: 3vw;
@@ -156,9 +157,6 @@
 }
 
 /* ------- SECTION-3 -------- */
-.recyclage-section-3 .recyclage-section-content{
-    align-items: center;
-}
 
 
 .recyclage-section-3 .recyclage-section-visuel{
@@ -166,9 +164,7 @@
 }
 
 /* ------- SECTION-4 -------- */
-.recyclage-section-4 .recyclage-section-content{
-    align-items: center;
-}
+
 
 
 .recyclage-section-4 .recyclage-section-visuel{
@@ -212,7 +208,7 @@
     text-align: center;
 }
 
-.button-underline span{
+.recyclage-section-5 .button-underline span{
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -222,4 +218,49 @@
     margin-top: -50px;
     padding: 10vh 0;
     height: 35vh;
+}
+
+/* ------- MORE OPEN -------- */
+
+details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+.recyclage-more-open{
+    display: flex;
+    width: 1200px;
+    margin-top: 10vh;
+
+}
+
+.recyclage-section-infos.right .recyclage-more-open{
+    margin-left: -100%;
+}
+
+.recyclage-more-open-left,
+.recyclage-more-open-right{
+   flex: 1; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+
+ .recyclage-more-title{
+    font-family: 'londrina_solid_lightregular';
+    font-size: 1.7em;
+    margin-bottom: 3vh;
+    padding: 0 20%;
+ }
+
+ .recyclage-more-open-left img,
+.recyclage-more-open-right img{
+    width: 100px;
+    margin-bottom: 3vh;
+}
+
+.recyclage-more-text{
+    width: 85%;
+    line-height: 1.5em;
 }

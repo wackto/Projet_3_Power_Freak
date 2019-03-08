@@ -188,3 +188,8 @@ h1, h2, h3, h4, h5, h6{
 .color-rose{
   color: #da004e !important;
 }
+
+/* --------------- fonts */
+.londrina-regular{
+  font-family: 'londrina_solidregular';
+}
