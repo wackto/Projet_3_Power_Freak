@@ -178,13 +178,13 @@ h1, h2, h3, h4, h5, h6{
 
 /* --------------- colors */
 .color-orange{
-  color: #f69301;
+  color: #f69301 !important;
 }
 
 .color-vert{
-  color: #96c400;
+  color: #96c400 !important;
 }
 
 .color-rose{
-  color: #da004e;
+  color: #da004e !important;
 }

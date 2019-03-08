@@ -11,10 +11,10 @@
 @import "footer.css";
 
 
-/* parts */
+/* homepage */
  @import "homepage/section-1.css"; 
  @import "homepage/section-2.css";
  @import "homepage/section-3.css";
-/* @import "parts/page--anchors.css"; */
-/* @import "parts/page--content.css"; */
-/* @import "parts/page--foot.css"; */
+
+/* recyclage */
+@import "recyclage.css"; 

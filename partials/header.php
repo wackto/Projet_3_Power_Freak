@@ -6,7 +6,7 @@
         <nav class="menu-nav">
             <ul>
                 <li>                      
-                    <a href="#">Recyclage</a>
+                    <a href="recyclage.php">Recyclage</a>
                 </li>
                 <li>                      
                     <a href="#">Power Freak</a>

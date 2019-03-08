@@ -2,7 +2,7 @@
     <div class="container">
         <div class="footer-bloc-1">
             <div class="footer-naviguation">
-                <img src="images/logo-power-freaks-white.png" alt="Logo Power Freaks" width="150" height="auto" />
+                <img src="images/logo-power-freaks-white.png" alt="Logo Power Freaks" width="auto" height="30" />
                 <nav class="footer-naviguation-menu">
                     <ul>
                         <li>                      
