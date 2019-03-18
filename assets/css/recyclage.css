@@ -1,0 +1,266 @@
+/* ------- Intro -------- */
+
+.recyclage-intro{
+    padding: 10vh 0;
+    margin-top: 10vh;
+}
+
+.recyclage-intro-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.recyclage-intro-visuel{
+    margin-right: 3vw;
+    width: 33%;
+    position: relative;
+}
+
+.recyclage-intro-citation{
+    position: absolute;
+    top: 2vh;
+    right: 0;
+    transform: translateX(85%);
+    width: 591px;
+    height: auto;
+}
+
+.recyclage-intro-visuel img:first-child{
+    width: 100%;
+    height: auto;
+}
+
+.recyclage-intro-text{
+    font-size: 1.2em;
+    width: 50%;
+    line-height: 1.8em;
+}
+
+/* ------- SECTIONS -------- */
+
+.recyclage-section{
+    padding: 10vh 0;
+}
+
+/* ------- titres -------- */
+
+.recyclage-section-title{
+    position: relative;
+    margin-bottom: 7vh;
+}
+
+.recyclage-section .title{
+    margin-bottom: 0;
+}
+
+.title-light{
+    font-family: 'londrina_solid_lightregular';
+}
+
+.subtitle{
+    font-family: 'ralewaylight_italic';
+    text-align:center;
+    font-size: 1.7em;
+}
+
+.recyclage-section-number{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    opacity: 0.4;
+    font-family: 'ralewaybold';
+    font-size: 10em;
+}
+
+/* ------- content -------- */
+
+.recyclage-section-content{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ------- infos -------- */
+
+.recyclage-section-infos.left{
+    width: 50%;
+    margin-right: 7vw;
+}
+
+.recyclage-section-infos.right{
+    width: 50%;
+    margin-left: 7vw;
+}
+
+.recyclage-exergue{
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+.recyclage-section-infos-text,
+.recyclage-more{
+    font-size: 1.2em;
+    line-height: 1.8em;
+    padding-left: 3vw;
+}
+
+.recyclage-more{
+    font-family: 'ralewaybold';
+    margin-top: 2vh;
+}
+
+.button-more{
+    display: inline;
+    margin-left: 0.5vw;
+}
+
+.button-more img{
+    width: 27px;;
+}
+
+
+/* ------- visuel -------- */
+
+.recyclage-section-visuel{
+    width: 30%;
+}
+
+.recyclage-section-visuel img{
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+.recyclage-section-visuel-text{
+    font-family: 'londrina_solid_lightregular';
+    font-size: 1.9em;
+    line-height: 1.3em;
+    margin-left: 2vw;
+}
+
+
+/* ------- SECTION-1 -------- */
+
+.recyclage-section-1 .recyclage-section-visuel img{
+    margin-top: -5vh;
+}
+
+/* ------- SECTION-2 -------- */
+
+.recyclage-section-2 .recyclage-section-visuel img{
+    margin-top: -3vh;
+}
+
+.recyclage-section-2 .recyclage-section-visuel{
+    width: 40%;
+}
+
+/* ------- SECTION-3 -------- */
+
+
+.recyclage-section-3 .recyclage-section-visuel{
+    width: 34%;
+}
+
+/* ------- SECTION-4 -------- */
+
+
+
+.recyclage-section-4 .recyclage-section-visuel{
+    width: 23%;
+}
+
+.recyclage-section-4 .recyclage-section-visuel-text{
+    width: 125%;
+    margin-left: inherit;
+}
+
+/* ------- SECTION-5 -------- */
+
+.recyclage-section-5{
+    background: url("../../images/recyclage-section-5-fond.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+}
+
+.recyclage-section-5 .recyclage-section-5-content {
+    text-align: center;
+}
+
+.recyclage-section-5 .recyclage-section-5-content .title{
+    margin-bottom: 5vh;
+}
+
+.recyclage-section-5 .title,
+.recyclage-section-5 p,
+.recyclage-section-5 a{
+    color: white;
+}
+
+.recyclage-section-5 .button-underline{
+    font-family: 'londrina_solid_lightregular';
+    font-size: 1.5em;
+    border-bottom: 4px solid #96c400  ;
+    display: inline-block;
+    padding-bottom: 1vh;
+    text-align: center;
+}
+
+.recyclage-section-5 .button-underline span{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.recyclage .footer{
+    margin-top: -50px;
+    padding: 10vh 0;
+    height: 35vh;
+}
+
+/* ------- MORE OPEN -------- */
+
+details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+.recyclage-more-open{
+    display: flex;
+    width: 1200px;
+    margin-top: 10vh;
+
+}
+
+.recyclage-section-infos.right .recyclage-more-open{
+    margin-left: -100%;
+}
+
+.recyclage-more-open-left,
+.recyclage-more-open-right{
+   flex: 1; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+
+ .recyclage-more-title{
+    font-family: 'londrina_solid_lightregular';
+    font-size: 1.7em;
+    margin-bottom: 3vh;
+    padding: 0 20%;
+ }
+
+ .recyclage-more-open-left img,
+.recyclage-more-open-right img{
+    width: 100px;
+    margin-bottom: 3vh;
+}
+
+.recyclage-more-text{
+    width: 85%;
+    line-height: 1.5em;
+}
