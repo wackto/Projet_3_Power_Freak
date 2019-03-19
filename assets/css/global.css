@@ -6,8 +6,15 @@
 /* components */
 /* @import "components/texts.css"; */
 
-/* parts */
-/* @import "parts/page--head.css"; */
-/* @import "parts/page--anchors.css"; */
-/* @import "parts/page--content.css"; */
-/* @import "parts/page--foot.css"; */
+/* global */
+@import "header.css";
+@import "footer.css";
+
+
+/* homepage */
+ @import "homepage/section-1.css"; 
+ @import "homepage/section-2.css";
+ @import "homepage/section-3.css";
+
+/* recyclage */
+@import "recyclage.css"; 
